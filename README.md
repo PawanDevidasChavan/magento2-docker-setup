@@ -1,6 +1,6 @@
-# Magento 2 Dockerized Environment – KWeb Server Assessment
+# Magento 2 Dockerized Environment 
 
-## 🚀 Overview
+## Overview
 This project provides a fully containerized Magento 2 setup using Docker Compose. It includes:
 - Magento 2 (latest)
 - PHP 8.3 (FPM)
@@ -52,22 +52,14 @@ This project provides a fully containerized Magento 2 setup using Docker Compose
    --use-rewrites=1
    ```
 
-## 🔒 Credentials
+## Credentials
 - **Magento Admin**: `admin / Admin123`
 - **MySQL Root**: `root / root`
 - **PHPMyAdmin**: http://<your-public-ip>:8080
 
-## 📦 Dockerized Stack
+## Dockerized Stack
 - Docker Compose orchestrates all services.
 - All volumes are persisted.
 - Services start with one command: `docker-compose up -d`
 
-## 📧 Submission
-Submit the following:
-- Live working link: `http://<your-public-ip>`
-- Docker Compose files & Dockerfiles
-- This README file
 
-To:
-- 📤 hr@kwebmaker.com
-- 📩 CC: support@kwebmaker.com
