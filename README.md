@@ -14,9 +14,9 @@ This project provides a fully containerized Magento 2 setup using Docker Compose
 ## 🛠️ Services
 | Service       | URL Format                      |
 |---------------|----------------------------------|
-| Magento Frontend | http://<your-public-ip>       |
-| Magento Admin | http://<your-public-ip>/admin   |
-| PHPMyAdmin    | http://<your-public-ip>:8080    |
+| Magento Frontend | http://  <>       |
+| Magento Admin | http:/admin   |
+| PHPMyAdmin    | http::8080    |
 
 ## 🧰 Usage Instructions
 1. Clone this repo or copy files to your server.
@@ -35,7 +35,7 @@ This project provides a fully containerized Magento 2 setup using Docker Compose
 5. Run setup (adjust base URL):
    ```bash
    bin/magento setup:install \
-   --base-url=http://<your-public-ip> \
+   --base-url=http://<52.87.67.192> \
    --db-host=mysql \
    --db-name=magento \
    --db-user=root \
